@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100vh;
+}
+
+body{
+    background: linear-gradient(90deg, #70e1f5, #ffd194); ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main{
+   width: 90vw; 
+   max-width: 700px;
+}
+
+/*Title*/
+#title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0 30px 0;
+}
+
+#title h1{
+    font: 900 2.8rem Lato, 'sans-serif';
+    line-height: 1.8;
+}
+
+#title p{
+    font: 400 1.2rem Roboto;
+    text-align: center;
+}
+
+/*Image*/
+#img-div{
+    margin-bottom: 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-div img{
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0 15px 0;
+}
+
+#img-div figcaption#img-caption{
+    margin: 0 18px 15px 18px;
+    text-align: center;
+    line-height: 1.35rem;
+    font: 400 0.9rem Roboto;
+    color:rgb(48, 48, 48);
+}
+
+/*Tribute information*/
+#tribute-info h2{
+    font: 700 2rem Lato;
+    text-align: center;
+    margin-bottom:45px;
+}
+
+#tribute-info ul{
+    padding: 0 1rem;
+    text-align: justify;
+}
+
+#tribute-info li{
+    margin-top: 20px;
+    line-height: 1.7rem;
+    font:400 1.2rem Roboto;
+}
+
+#tribute-info p{
+    font: 500 1.3rem Roboto;
+    text-align: center;
+    line-height: 2rem;
+    padding: 30px 0 30px 0;
+}
+
+/*Footer*/
+#footer{
+    width: 100%;
+    max-width: 100%;
+    background: linear-gradient(90deg, #BBEEF7, #FFF2E0);
+    font:500 0.8rem Roboto;
+    color:rgb(48, 48, 48);
+    line-height: 0.9rem;
+    text-align: center;
+    padding: 30px 0;  
+}
+
+#footer #credits{
+    margin-top: 15px;
+}
+
+/*Available Languages*/
+#footer #lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10px;
+
+    font:600 0.95rem Roboto;
+    color:rgb(48, 48, 48);
+}
+
+#footer #lang img{
+    width: 45px;
+    max-width: 45px;
+}
+
+/*Hyperlink*/
+a{
+    color: #3D98A8;
+}
+
+@media(min-width:700px){
+    #main{
+        width: 90vw; 
+        max-width: 900px;
+    }
+
+    #title h1{
+        font: 900 4rem Roboto, 'sans-serif';
+        line-height: 2;
+    }
+
+    #title p{
+        font: 400 2rem Lato;
+    }
+     
+     #img-div img{
+         width:400px;
+         margin: 15px 0 15px 0;
+     }
+     
+     #img-div figcaption#img-caption{
+         margin: 0 96px 15px 96px;
+         font: 400 1.2rem Roboto;
+         color:rgb(48, 48, 48);
+     }
+     
+     #tribute-info h2{
+         font: 700 2.2rem Lato;
+         text-align: center;
+     }
+     
+     #tribute-info ul{
+         padding: 0 2rem;
+         text-align: justify;
+     }
+     
+     #tribute-info li{
+         margin-top: 30px;
+         font:400 1.4rem Roboto;
+     }
+     
+     #tribute-info p{
+         font: 500 2rem Roboto;
+         text-align: center;
+         line-height: 2.5rem;
+         padding: 30px 0 30px 0;
+     }
+
+    #footer{
+        font:500 1rem Roboto;
+        line-height: 20px;
+        padding: 15px 0;
+    }
+
+    #footer #credits{
+        margin-top: 20px;
+    }
+
+    #footer #lang{
+        margin-top: 10px;
+
+        font:600 1.2rem Roboto;
+        color:rgb(48, 48, 48);
+    }
+
+    #footer #lang img{
+        width: 50px;
+        max-width: 50px;
+    }
+}
