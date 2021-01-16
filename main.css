@@ -79,11 +79,31 @@ body{
     font:400 1.2rem Roboto;
 }
 
+/*Tribute Information: Blockquote*/
+#tribute-info blockquote{
+    font: 400 1.2rem Roboto;
+    text-align: center;
+    line-height: 1.5rem;
+
+    padding: 15px 10px;
+    margin-top: 15px;
+    
+    background: linear-gradient(90deg, #2833354b, #5c57516e);
+}
+
+#tribute-info blockquote #author{
+    font: 500 1rem Roboto;
+    text-align:right;
+    
+    padding:10px ;
+}
+
+/*Tribute Information: More*/
 #tribute-info p{
     font: 500 1.3rem Roboto;
     text-align: center;
     line-height: 2rem;
-    padding: 30px 0 30px 0;
+    padding: 30px 0 ;
 }
 
 /*Footer*/
@@ -129,7 +149,7 @@ a{
         width: 90vw; 
         max-width: 900px;
     }
-
+    /*Title*/
     #title h1{
         font: 900 4rem Roboto, 'sans-serif';
         line-height: 2;
@@ -138,40 +158,53 @@ a{
     #title p{
         font: 400 2rem Lato;
     }
-     
-     #img-div img{
+
+    /*Image*/
+    #img-div img{
          width:400px;
          margin: 15px 0 15px 0;
      }
      
-     #img-div figcaption#img-caption{
+    #img-div figcaption#img-caption{
          margin: 0 96px 15px 96px;
          font: 400 1.2rem Roboto;
          color:rgb(48, 48, 48);
      }
-     
-     #tribute-info h2{
+    /*Tribute Information*/
+    #tribute-info h2{
          font: 700 2.2rem Lato;
          text-align: center;
      }
      
-     #tribute-info ul{
+    #tribute-info ul{
          padding: 0 2rem;
          text-align: justify;
      }
      
-     #tribute-info li{
+    #tribute-info li{
          margin-top: 30px;
          font:400 1.4rem Roboto;
      }
+
+    /*Tribute Information: Blockquote*/
+    #tribute-info blockquote{
+        font: 400 1.8rem Roboto;
+        line-height: 2.5rem;
+
+        margin-top: 30px;
+    }
+    
+    #tribute-info blockquote #author{
+        font: 500 1.5rem Roboto;
+    }
      
-     #tribute-info p{
+    /*Tribute Information: More*/
+    #tribute-info p{
          font: 500 2rem Roboto;
-         text-align: center;
          line-height: 2.5rem;
-         padding: 30px 0 30px 0;
      }
 
+    /*Footer*/
     #footer{
         font:500 1rem Roboto;
         line-height: 20px;
@@ -182,6 +215,7 @@ a{
         margin-top: 20px;
     }
 
+    /*Available Languages*/
     #footer #lang{
         margin-top: 10px;
 
