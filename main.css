@@ -80,21 +80,18 @@ body{
 }
 
 /*Tribute Information: Blockquote*/
-#tribute-info blockquote{
+blockquote{
     font: 400 1.2rem Roboto;
     text-align: center;
     line-height: 1.5rem;
-
     padding: 15px 10px;
     margin-top: 15px;
-    
     background: linear-gradient(90deg, #2833354b, #5c57516e);
 }
 
-#tribute-info p#author{
+#author{
     font: 500 1rem Roboto;
     text-align:right;
-    
     padding:10px ;
 }
 
