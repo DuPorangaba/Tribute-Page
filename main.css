@@ -91,7 +91,7 @@ body{
     background: linear-gradient(90deg, #2833354b, #5c57516e);
 }
 
-#tribute-info blockquote #author{
+#tribute-info p#author{
     font: 500 1rem Roboto;
     text-align:right;
     
